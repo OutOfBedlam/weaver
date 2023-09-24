@@ -1,5 +1,9 @@
 package main
 
-func main() {
+import (
+	"weaver/cmd"
+)
 
+func main() {
+	cmd.Execute()
 }
